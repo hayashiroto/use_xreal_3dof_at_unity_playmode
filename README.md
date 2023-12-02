@@ -62,15 +62,3 @@ success
 # Libraries Used in C
 * https://github.com/libusb/hidapi
 * https://github.com/recp/cglm
-
-
-
-
-
-
-# 参考にしたリポジトリはこちらです。
-* https://github.com/abls/real-air/tree/master
-
-# cで使用するライブラリ
-* https://github.com/libusb/hidapi
-* https://github.com/recp/cglm
