@@ -1,15 +1,15 @@
-# 要約
-* hidapiを用いてnreal airの加速度センサー情報を取得。
-* cglmを用いてクォータニオンを算出し標準出力するcのバイナリを作成。
-* unityのメインスレッドから、プロセスを作成し外部のバイナリを実行。
-* 出力されたクォータニオンを受け取り, unityのメインカメラに反映。　
-
 # Summary
 * Retrieve accelerometer data of nreal air using `hidapi`.
 * Create a C binary that calculates quaternions using `cglm` and outputs them to the standard output.
 * Create a process from Unity's main thread and execute an external binary.
 * Receive the output quaternions and apply them to Unity's main camera.
 
+# 概要
+* hidapiを用いてnreal airの加速度センサー情報を取得。
+* cglmを用いてクォータニオンを算出し標準出力するcのバイナリを作成。
+* unityのメインスレッドから、プロセスを作成し外部のバイナリを実行。
+* 出力されたクォータニオンを受け取り, unityのメインカメラに反映。　
+* macOSで使用可能
 
 # environment info
 
@@ -45,6 +45,9 @@ success
 * open unity with unity hub
 * play
 
+# main script
+* https://github.com/hayashiroto/use_xreal_3dof_at_unity_playmode/blob/main/Assets/get_xreal_rotation/inspector.c
+* https://github.com/hayashiroto/use_xreal_3dof_at_unity_playmode/blob/main/Assets/ar_test_ipc.cs
 
 # 注意事項
 * cのビルドでエラーが発生した際はエラーハンドリングして解決してください
