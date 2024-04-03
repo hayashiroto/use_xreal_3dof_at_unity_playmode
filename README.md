@@ -11,6 +11,19 @@
 * 出力されたクォータニオンを受け取り, unityのメインカメラに反映。　
 * macOSで使用可能
 
+![カメラのクォータニオンと](https://github.com/hayashiroto/use_xreal_3dof_at_unity_playmode/assets/69220422/28e383c4-9875-4b8e-9902-60c38583df14)
+
+# 従来の開発方法
+* AR　グラスの機能を使えないし、いちいちビルドする必要があった
+![XREALをMACに接続](https://github.com/hayashiroto/use_xreal_3dof_at_unity_playmode/assets/69220422/6e8fe829-3ca8-49c0-9c44-a72ebbff50f7)
+
+
+# 新しい開発方法
+* ARグラスをかけながら、エディタなどで開発をし、そのままUNITYのプレイモードで動作確認することができる。
+* その時、加速度センサーの情報も反映される。
+![IMG_1909](https://github.com/hayashiroto/use_xreal_3dof_at_unity_playmode/assets/69220422/b92b0758-31f5-44bf-8875-9b6f4e7bb385)
+
+
 # environment info
 
 ```
