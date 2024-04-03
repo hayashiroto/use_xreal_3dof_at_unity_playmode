@@ -18,7 +18,7 @@
 ![XREALをMACに接続](https://github.com/hayashiroto/use_xreal_3dof_at_unity_playmode/assets/69220422/6e8fe829-3ca8-49c0-9c44-a72ebbff50f7)
 
 
-# 新しい開発方法
+# このリポジトリを導入した場合の開発方法
 * ARグラスをかけながら、エディタなどで開発をし、そのままUNITYのプレイモードで動作確認することができる。
 * その時、加速度センサーの情報も反映される。
 ![IMG_1909](https://github.com/hayashiroto/use_xreal_3dof_at_unity_playmode/assets/69220422/b92b0758-31f5-44bf-8875-9b6f4e7bb385)
@@ -62,15 +62,16 @@ success
 * https://github.com/hayashiroto/use_xreal_3dof_at_unity_playmode/blob/main/Assets/get_xreal_rotation/inspector.c
 * https://github.com/hayashiroto/use_xreal_3dof_at_unity_playmode/blob/main/Assets/ar_test_ipc.cs
 
+# Notes
+* Handle errors if they occur during C build.
+* Press the "kill" button to exit Unity play mode.
+* It's not perfectly synchronized; adjustments are based on empirical knowledge in the code. If you have better adjustment methods, please submit a pull request.
+
 # 注意事項
 * cのビルドでエラーが発生した際はエラーハンドリングして解決してください
 * kill button を押してunityのプレイモードは終わらせてください。
 * 完全に同期しているわけではんく、コードの中でいい感じに経験則に基づいて調整しています。いい調整方法がありましたら、PR出してください。
 
-# Notes
-* Handle errors if they occur during C build.
-* Press the "kill" button to exit Unity play mode.
-* It's not perfectly synchronized; adjustments are based on empirical knowledge in the code. If you have better adjustment methods, please submit a pull request.
 
 # Repository Used as Reference
 * https://github.com/abls/real-air/tree/master
