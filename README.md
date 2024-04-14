@@ -13,6 +13,10 @@
 
 ![カメラのクォータニオンと](https://github.com/hayashiroto/use_xreal_3dof_at_unity_playmode/assets/69220422/28e383c4-9875-4b8e-9902-60c38583df14)
 
+# movie
+https://discord.com/channels/930896868936941668/992795402996809849/1180416603284840489
+
+
 # 従来の開発方法
 * AR　グラスの機能を使えないし、いちいちビルドする必要があった
 ![XREALをMACに接続](https://github.com/hayashiroto/use_xreal_3dof_at_unity_playmode/assets/69220422/6e8fe829-3ca8-49c0-9c44-a72ebbff50f7)
